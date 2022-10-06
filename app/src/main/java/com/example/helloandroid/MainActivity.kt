@@ -1,6 +1,7 @@
 package com.example.helloandroid
 
 import android.content.Intent
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.helloandroid.R.id
@@ -12,13 +13,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        findViewById<Button>(btLogin).SetOnClickListener{
+        findViewById<Button>(R.id.btLogin).SetOnClickListener{
             startActivity(Intent(this.HomeActivity::class.java))
         }
-        findViewById<Button>(btCadastrar).SetOnClickListener{
+        findViewById<Button>(R.id.btCadastrar).SetOnClickListener{
             startActivity(Intent(this.CadastrarActivity::class.java))
         }
-        findViewById<Button>(btEsqueciSenha).SetOnClickListener{
+        findViewById<Button>(R.id.btEsqueciSenha).SetOnClickListener{
             startActivity(Intent(this.EsqueciMinhaSenhaActivity::class.java))
         }
     }
