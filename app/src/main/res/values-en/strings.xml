@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HelloAndroid</string>
+    <string name="hello">Hello Android</string>
+    <string name="Login">Login</string>
+    <string name="Entrar">Login</string>
+    <string name="Senha">Password</string>
+    <string name="EsqueciaSenha">Forgot my password</string>
+</resources>
